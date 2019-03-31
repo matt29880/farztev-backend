@@ -24,7 +24,7 @@ import com.ronvel.farztev.config.SpringConfiguration;
 public abstract class BaseServiceTest {
 
   @Before
-  @FlywayTest(invokeCleanDB = true, locationsForMigrate = {"db/testdata"})
+  @FlywayTest(invokeCleanDB = true, locationsForMigrate = {"db/migration"})
   public void before() throws Exception {
   }
   
