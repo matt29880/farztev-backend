@@ -83,6 +83,7 @@
 		<dependency>
 			<groupId>org.flywaydb.flyway-test-extensions</groupId>
 			<artifactId>flyway-spring-test</artifactId>
+			<scope>test</scope>
 			<version>5.0.0</version>
 		</dependency>
 		<dependency>
