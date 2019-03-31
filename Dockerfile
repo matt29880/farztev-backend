@@ -8,7 +8,7 @@ LABEL maintainer="mathieu@ronvel.com"
 VOLUME /tmp
 
 # Make port 8081 available to the world outside this container
-EXPOSE 8081
+EXPOSE 8080
 
 # Add the application's jar to the container
 ADD target/farztev-backend-0.0.1.jar farztev-backend.jar
