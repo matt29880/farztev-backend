@@ -29,3 +29,6 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
+flyway:
+  enabled: false
+  
