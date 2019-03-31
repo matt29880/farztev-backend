@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: Farztev admin API
+  title: Farztev API
   description: Manage Farztev
   version: "1.0.0"
 host: localhost
